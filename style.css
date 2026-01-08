@@ -98,3 +98,50 @@ nav button{
 }
 
 /* Seceond Section */
+.secondHero{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+.secondHero h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+}
+.secondHero p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin: 10px 0px 25px 0px;
+}
+.cardAll{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardAll .card{
+    
+    width: 295px;
+    height: 220px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 30px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+}
+.card h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+}
+.card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+}
+
+.cardAll img{
+    background-color:rgba(249, 85, 85, 1);
+    padding: 10px;
+    border-radius: 50%;
+}
