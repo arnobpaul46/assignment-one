@@ -318,6 +318,7 @@ footer{
 .social i:hover{
     /* color: rgba(255, 255, 255, 1); */
     background:#30B868;
+    cursor:pointer;
    
 }
 .copyright{
