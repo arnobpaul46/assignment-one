@@ -18,6 +18,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 nav .navList ul{
     display: flex;
@@ -29,6 +30,9 @@ nav .navList ul{
 nav .navList ul li{
     list-style: none;
     color: black;
+}
+nav .navList ul li:hover{
+    border-bottom: 1px solid #30B868;
 }
 
 nav button{
@@ -44,6 +48,7 @@ nav button:hover{
     border-radius: 4px;
     transition: ease-in-out;
     color: rgba(255, 255, 255, 1);
+    cursor: pointer;
 }
 
 /* hero section */
@@ -67,6 +72,13 @@ nav button:hover{
     border-radius: 100px;
     color: #30B868;
 }
+.hero h3 img{
+    margin-bottom: -2px ;
+    margin-right: 5px;
+}
+.hero h3:hover{
+    cursor: pointer;
+}
 .hero h1{
     font-size: 72px ;
     font-weight: 700;
@@ -87,6 +99,7 @@ nav button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .btn button{
     margin: 20px 5px ;
@@ -105,6 +118,7 @@ nav button:hover{
     border-radius: 4px;
     transition: ease-in-out;
     color: rgba(255, 255, 255, 1);
+    cursor: pointer;
 }
 .btn button img{
     /* padding-bottom: -20px; */
@@ -112,16 +126,21 @@ nav button:hover{
 }
 
 #secondbtn{
-    border:1px solid rgba(255, 255, 255, 1); ;
+    padding: 12px ;
+    border:1px solid rgba(255, 255, 255, 1); 
     border-radius: 4px;
+    font-size: 15px;
     background-color: transparent;
 }
+
+
 #secondbtn:hover{
     background-color: rgb(30, 75, 49);
     border: none;
     border-radius: 4px;
-    transition: ease-in-out;
+    transition: ease-in;
     color: rgba(255, 255, 255, 1);
+    cursor: pointer;
 }
 /* Seceond Section */
 .secondHero{
@@ -258,6 +277,7 @@ nav button:hover{
     border-radius: 4px;
     transition: ease-in-out;
     color: rgba(255, 255, 255, 1);
+    cursor: pointer;
 }
 .fourSect button img{
     margin-bottom: -5px;
@@ -291,9 +311,14 @@ footer{
     color: rgba(0, 0, 0, 1);
     padding: 3px;
     border-radius: 50%;
-    font-size: 22px ;
+    font-size: 20px ;
     font-weight: 500;
     margin: 10px 3px;
+}
+.social i:hover{
+    /* color: rgba(255, 255, 255, 1); */
+    background:#30B868;
+   
 }
 .copyright{
     padding: 20px;
