@@ -145,3 +145,55 @@ nav button{
     padding: 10px;
     border-radius: 50%;
 }
+
+
+
+/* third section */
+
+.thirdHero{
+    width: 80%;
+    margin: 120px auto;
+    text-align: center;
+    /* border: 1px solid black;  */
+}
+.theSolution{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightpat {
+    text-align: start;
+}
+.rightpat h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    text-transform: uppercase;
+}
+.rightpat h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin: 10px 0 20px 0;
+}
+.rightpat p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+}
+.rightpat ul{
+    
+    margin: 25px 0 10px 0;
+    
+}
+.rightpat ul li{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 25, 49, 1);
+    list-style-type: none;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
